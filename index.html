@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Bitcoin Drawdown Dashboard</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body {
+      background: #181a20;
+      color: #f2a900;
+      font-family: 'Segoe UI', Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      min-height: 100vh;
+    }
+    header {
+      background: #22242a;
+      text-align: center;
+      padding: 2rem 0 1rem 0;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.3rem;
+      letter-spacing: 2px;
+      font-weight: 900;
+    }
+    main {
+      max-width: 700px;
+      margin: 2rem auto;
+      background: #23272f;
+      border-radius: 10px;
+      padding: 2rem 1.5rem;
+      box-shadow: 0 2px 12px rgba(42,36,2,0.14);
+      overflow-x: auto;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      background: transparent;
+      table-layout: fixed;
+    }
+    th, td {
+      padding: 1rem 0.5rem;
+      text-align: left;
+      vertical-align: top;
+      overflow-wrap: break-word;
+      word-break: break-word;
+      white-space: normal;
+    }
+    th {
+      background: #15171c;
+      color: #f2a900;
+      font-size: 1rem;
+      font-weight: bold;
+      border-bottom: 2px solid #f2a900;
+    }
+    tr {
+      border-bottom: 1px dashed #3c3d41;
+    }
+    tr:last-child {
+      border-bottom: none;
+    }
+    td {
+      font-size: 1.05rem;
+    }
+    td.flag-country {
+      max-width: 160px;
+    }
+    td.currency {
+      max-width: 65px;
+    }
+    td.drawdown, td.days {
+      max-width: 90px;
+    }
+    .ath {
+      color: #13ed90;
+      font-weight: bold;
+    }
+    .currency {
+      letter-spacing: 1px;
+      text-shadow: 0 0 3px #111;
+    }
+    .flag-country {
+      white-space: normal; /* allow wrapping */
+      word-break: break-word;
+    }
+    .flag {
+      font-size: 1.4em;
+    }
+    @media (max-width: 700px) {
+      main { padding: 0.5rem; }
+      th, td { padding: 0.5rem 0.2rem; font-size: 0.93rem;}
+      header h1 { font-size: 1.2rem;}
+      td.flag-country {
+        max-width: 80px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Bitcoin Drawdown By Currency</h1>
+    <p>
+      <span style="color:#13ed90;">@ ATH</span> means <b>at all-time high</b> price
+    </p>
+    <p id="last-update" style="color:#cfcfcf;font-size:0.96em;margin:0.6em 0 0.7em 0;">
+      Last update: <span id="update-time">Loading…</span> | 
+      <span>
+        <a href="https://github.com/timschwarz0/btcath" target="_blank" style="color:#f2a900;text-decoration:underline;">GitHub</a>
+      </span>
+    </p>
+  </header>
+  <main>
+    <table id="drawdown-table">
+      <thead>
+        <tr>
+          <th style="width:65px">Currency Code</th>
+          <th style="width:160px">Flag &amp; Country</th>
+          <th style="width:90px">Drawdown %</th>
+          <th style="width:90px">Days Since ATH</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- Data rows injected via JavaScript -->
+      </tbody>
+    </table>
+  </main>
+  <script>
+    // Fetch and display last update date
+    fetch('last_updated.json')
+      .then(response => response.json())
+      .then(data => {
+        document.getElementById('update-time').textContent = data.date;
+      });
+    function loadJSON(url) {
+      return fetch(url).then(response => response.json());
+    }
+
+    Promise.all([
+      loadJSON('currency_flags.json'),
+      loadJSON('currency_names.json'),
+      loadJSON('data.json')
+    ]).then(([flags, names, data]) => {
+
+      const rows = Object.entries(data)
+        .sort(([, a], [, b]) => a.days_since_ath - b.days_since_ath);
+
+      const tbody = document.querySelector('#drawdown-table tbody');
+      for (let [currency, stats] of rows) {
+        const tr = document.createElement('tr');
+
+        // Currency code cell
+        const tdCurrency = document.createElement('td');
+        tdCurrency.textContent = currency;
+        tdCurrency.className = 'currency';
+
+        // Flag & Country name cell
+        const tdFlagCountry = document.createElement('td');
+        tdFlagCountry.className = 'flag-country';
+        const flag = flags[currency] || '';
+        const name = names[currency] || '';
+        tdFlagCountry.innerHTML = `<span class="flag">${flag}</span> ${name}`;
+
+        // Drawdown percent cell
+        const tdDrawdown = document.createElement('td');
+        tdDrawdown.className = 'drawdown';
+        tdDrawdown.textContent = stats.drawdown_percent === 0
+          ? '@ ATH'
+          : '-' + stats.drawdown_percent.toFixed(2) + '%';
+        if (stats.drawdown_percent === 0) {
+          tdDrawdown.className += ' ath';
+        }
+
+        // Days since ATH cell
+        const tdDays = document.createElement('td');
+        tdDays.className = 'days';
+        tdDays.textContent = stats.days_since_ath === 0
+          ? '@ ATH'
+          : stats.days_since_ath;
+        if (stats.days_since_ath === 0) {
+          tdDays.className += ' ath';
+        }
+
+        tr.appendChild(tdCurrency);
+        tr.appendChild(tdFlagCountry);
+        tr.appendChild(tdDrawdown);
+        tr.appendChild(tdDays);
+
+        tbody.appendChild(tr);
+      }
+    }).catch(console.error);
+  </script>
+</body>
+</html>
