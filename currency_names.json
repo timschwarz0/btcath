@@ -141,5 +141,9 @@
     "GBP": [
       "United Kingdom", "Guernsey", "Jersey", "Isle of Man"
     ],
-    "GNF": "Guinea"
+    "GNF": "Guinea",
+    "USD": [
+      "United States", "East Timor", "Ecuador", "El Salvador", 
+      "Federated States of Micronesia", "Marshall Islands", "Palau"
+    ]
   }
