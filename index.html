@@ -176,6 +176,9 @@
         tdDrawdown.textContent = stats.drawdown_percent === 0
           ? '@ ATH'
           : '-' + stats.drawdown_percent.toFixed(2) + '%';
+        if (stats.drawdown_percent > 0 && stats.drawdown_percent < 5) {
+          tdDrawdown.innerHTML += ' 🔥';
+        }
         if (stats.drawdown_percent === 0) {
           tdDrawdown.className += ' ath';
         }
