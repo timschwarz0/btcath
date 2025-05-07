@@ -1,3 +1,10 @@
 data/
 *.py
 .DS_Store
+__pycache__/
+*.egg-info/
+*.egg
+*.whl
+*.pdb
+*.log
+*.sqlite3
