@@ -1,522 +1,522 @@
 {
   "NIO": {
-    "drawdown_percent": 10.33,
+    "drawdown_percent": 10.14,
     "days_since_ath": 43
   },
   "HTG": {
-    "drawdown_percent": 10.44,
+    "drawdown_percent": 10.25,
     "days_since_ath": 43
   },
   "THB": {
-    "drawdown_percent": 10.16,
+    "drawdown_percent": 9.97,
     "days_since_ath": 43
   },
   "LAK": {
-    "drawdown_percent": 11.0,
+    "drawdown_percent": 10.81,
     "days_since_ath": 43
   },
   "CRC": {
-    "drawdown_percent": 10.69,
+    "drawdown_percent": 10.5,
     "days_since_ath": 15
   },
   "BYN": {
-    "drawdown_percent": 11.96,
+    "drawdown_percent": 11.77,
     "days_since_ath": 15
   },
   "CAD": {
-    "drawdown_percent": 9.61,
+    "drawdown_percent": 9.42,
     "days_since_ath": 15
   },
   "ILS": {
-    "drawdown_percent": 11.32,
+    "drawdown_percent": 11.13,
     "days_since_ath": 15
   },
   "KHR": {
-    "drawdown_percent": 10.27,
+    "drawdown_percent": 10.08,
     "days_since_ath": 15
   },
   "HNL": {
-    "drawdown_percent": 10.45,
+    "drawdown_percent": 10.26,
     "days_since_ath": 15
   },
   "CVE": {
-    "drawdown_percent": 11.27,
+    "drawdown_percent": 11.08,
     "days_since_ath": 217
   },
   "PGK": {
-    "drawdown_percent": 10.3,
+    "drawdown_percent": 10.11,
     "days_since_ath": 12
   },
   "GNF": {
-    "drawdown_percent": 10.46,
+    "drawdown_percent": 10.28,
     "days_since_ath": 15
   },
   "GMD": {
-    "drawdown_percent": 10.11,
+    "drawdown_percent": 9.92,
     "days_since_ath": 15
   },
   "RUB": {
-    "drawdown_percent": 21.96,
+    "drawdown_percent": 21.8,
     "days_since_ath": 251
   },
   "JOD": {
-    "drawdown_percent": 10.23,
+    "drawdown_percent": 10.04,
     "days_since_ath": 43
   },
   "BRL": {
-    "drawdown_percent": 12.41,
+    "drawdown_percent": 12.22,
     "days_since_ath": 43
   },
   "MYR": {
-    "drawdown_percent": 11.2,
+    "drawdown_percent": 11.02,
     "days_since_ath": 43
   },
   "PYG": {
-    "drawdown_percent": 17.05,
+    "drawdown_percent": 16.88,
     "days_since_ath": 43
   },
   "KES": {
-    "drawdown_percent": 10.31,
+    "drawdown_percent": 10.12,
     "days_since_ath": 43
   },
   "LKR": {
-    "drawdown_percent": 9.87,
+    "drawdown_percent": 9.68,
     "days_since_ath": 43
   },
   "BIF": {
-    "drawdown_percent": 10.16,
-    "days_since_ath": 15
-  },
-  "CZK": {
-    "drawdown_percent": 13.83,
-    "days_since_ath": 217
-  },
-  "KZT": {
-    "drawdown_percent": 11.12,
-    "days_since_ath": 15
-  },
-  "AED": {
-    "drawdown_percent": 10.23,
-    "days_since_ath": 43
-  },
-  "AWG": {
-    "drawdown_percent": 10.23,
-    "days_since_ath": 43
-  },
-  "ARS": {
-    "drawdown_percent": 9.21,
-    "days_since_ath": 15
-  },
-  "TND": {
-    "drawdown_percent": 10.99,
-    "days_since_ath": 43
-  },
-  "EUR": {
-    "drawdown_percent": 11.32,
-    "days_since_ath": 217
-  },
-  "ISK": {
-    "drawdown_percent": 12.5,
-    "days_since_ath": 217
-  },
-  "YER": {
-    "drawdown_percent": 10.76,
-    "days_since_ath": 43
-  },
-  "SZL": {
-    "drawdown_percent": 11.86,
-    "days_since_ath": 43
-  },
-  "TRY": {
-    "drawdown_percent": 9.61,
-    "days_since_ath": 15
-  },
-  "SAR": {
-    "drawdown_percent": 10.23,
-    "days_since_ath": 43
-  },
-  "LSL": {
-    "drawdown_percent": 11.86,
-    "days_since_ath": 43
-  },
-  "JPY": {
-    "drawdown_percent": 10.22,
-    "days_since_ath": 15
-  },
-  "LRD": {
-    "drawdown_percent": 10.45,
-    "days_since_ath": 15
-  },
-  "SEK": {
-    "drawdown_percent": 14.02,
-    "days_since_ath": 217
-  },
-  "FJD": {
-    "drawdown_percent": 9.81,
-    "days_since_ath": 15
-  },
-  "KMF": {
-    "drawdown_percent": 11.39,
-    "days_since_ath": 217
-  },
-  "KYD": {
-    "drawdown_percent": 10.23,
-    "days_since_ath": 43
-  },
-  "RSD": {
-    "drawdown_percent": 11.27,
-    "days_since_ath": 217
-  },
-  "UYU": {
-    "drawdown_percent": 12.02,
-    "days_since_ath": 43
-  },
-  "HUF": {
-    "drawdown_percent": 14.66,
-    "days_since_ath": 217
-  },
-  "DZD": {
-    "drawdown_percent": 10.38,
-    "days_since_ath": 15
-  },
-  "BHD": {
-    "drawdown_percent": 10.23,
-    "days_since_ath": 43
-  },
-  "MAD": {
-    "drawdown_percent": 10.59,
-    "days_since_ath": 15
-  },
-  "NPR": {
-    "drawdown_percent": 10.23,
-    "days_since_ath": 15
-  },
-  "DKK": {
-    "drawdown_percent": 11.25,
-    "days_since_ath": 217
-  },
-  "ALL": {
-    "drawdown_percent": 10.9,
-    "days_since_ath": 43
-  },
-  "TTD": {
-    "drawdown_percent": 10.24,
-    "days_since_ath": 43
-  },
-  "MXN": {
-    "drawdown_percent": 10.29,
-    "days_since_ath": 43
-  },
-  "BND": {
-    "drawdown_percent": 10.25,
-    "days_since_ath": 15
-  },
-  "SCR": {
-    "drawdown_percent": 11.46,
-    "days_since_ath": 15
-  },
-  "XPF": {
-    "drawdown_percent": 11.21,
-    "days_since_ath": 217
-  },
-  "KRW": {
-    "drawdown_percent": 10.21,
-    "days_since_ath": 15
-  },
-  "AFN": {
-    "drawdown_percent": 11.27,
-    "days_since_ath": 43
-  },
-  "IRR": {
-    "drawdown_percent": 11.67,
-    "days_since_ath": 15
-  },
-  "OMR": {
-    "drawdown_percent": 10.23,
-    "days_since_ath": 43
-  },
-  "SOS": {
-    "drawdown_percent": 10.28,
-    "days_since_ath": 15
-  },
-  "GBP": {
-    "drawdown_percent": 10.4,
-    "days_since_ath": 15
-  },
-  "CDF": {
-    "drawdown_percent": 11.11,
-    "days_since_ath": 43
-  },
-  "PHP": {
-    "drawdown_percent": 10.46,
-    "days_since_ath": 15
-  },
-  "NGN": {
-    "drawdown_percent": 10.08,
-    "days_since_ath": 12
-  },
-  "NOK": {
-    "drawdown_percent": 11.57,
-    "days_since_ath": 15
-  },
-  "CLP": {
-    "drawdown_percent": 11.15,
-    "days_since_ath": 15
-  },
-  "USD": {
-    "drawdown_percent": 10.23,
-    "days_since_ath": 43
-  },
-  "BSD": {
-    "drawdown_percent": 10.23,
-    "days_since_ath": 43
-  },
-  "VES": {
-    "drawdown_percent": 4.44,
-    "days_since_ath": 3
-  },
-  "XAF": {
-    "drawdown_percent": 11.27,
-    "days_since_ath": 217
-  },
-  "LBP": {
-    "drawdown_percent": 10.23,
-    "days_since_ath": 43
-  },
-  "CUP": {
-    "drawdown_percent": 10.23,
-    "days_since_ath": 43
-  },
-  "DOP": {
-    "drawdown_percent": 9.05,
-    "days_since_ath": 12
-  },
-  "PAB": {
-    "drawdown_percent": 10.23,
-    "days_since_ath": 43
-  },
-  "MUR": {
-    "drawdown_percent": 9.12,
-    "days_since_ath": 15
-  },
-  "HKD": {
-    "drawdown_percent": 10.67,
-    "days_since_ath": 43
-  },
-  "LYD": {
-    "drawdown_percent": 10.25,
-    "days_since_ath": 12
-  },
-  "QAR": {
-    "drawdown_percent": 10.23,
-    "days_since_ath": 43
-  },
-  "VND": {
     "drawdown_percent": 9.97,
     "days_since_ath": 15
   },
-  "DJF": {
-    "drawdown_percent": 10.23,
-    "days_since_ath": 43
-  },
-  "SDG": {
-    "drawdown_percent": 25.05,
-    "days_since_ath": 12
-  },
-  "MWK": {
-    "drawdown_percent": 9.91,
-    "days_since_ath": 15
-  },
-  "TWD": {
-    "drawdown_percent": 8.51,
-    "days_since_ath": 12
-  },
-  "MOP": {
-    "drawdown_percent": 10.67,
-    "days_since_ath": 43
-  },
-  "NZD": {
-    "drawdown_percent": 8.74,
-    "days_since_ath": 15
-  },
-  "NAD": {
-    "drawdown_percent": 11.86,
-    "days_since_ath": 43
-  },
-  "PEN": {
-    "drawdown_percent": 11.41,
-    "days_since_ath": 43
-  },
-  "ETB": {
-    "drawdown_percent": 9.95,
-    "days_since_ath": 12
-  },
-  "BBD": {
-    "drawdown_percent": 10.23,
-    "days_since_ath": 43
-  },
-  "BOB": {
-    "drawdown_percent": 10.6,
-    "days_since_ath": 43
-  },
-  "PKR": {
-    "drawdown_percent": 10.48,
-    "days_since_ath": 43
-  },
-  "KWD": {
-    "drawdown_percent": 10.23,
-    "days_since_ath": 43
-  },
-  "EGP": {
-    "drawdown_percent": 12.01,
-    "days_since_ath": 43
-  },
-  "JMD": {
-    "drawdown_percent": 10.37,
-    "days_since_ath": 43
-  },
-  "XOF": {
-    "drawdown_percent": 11.27,
+  "CZK": {
+    "drawdown_percent": 13.65,
     "days_since_ath": 217
   },
-  "BGN": {
+  "KZT": {
+    "drawdown_percent": 10.93,
+    "days_since_ath": 15
+  },
+  "AED": {
+    "drawdown_percent": 10.04,
+    "days_since_ath": 43
+  },
+  "AWG": {
+    "drawdown_percent": 10.04,
+    "days_since_ath": 43
+  },
+  "ARS": {
+    "drawdown_percent": 9.02,
+    "days_since_ath": 15
+  },
+  "TND": {
+    "drawdown_percent": 10.81,
+    "days_since_ath": 43
+  },
+  "EUR": {
+    "drawdown_percent": 11.13,
+    "days_since_ath": 217
+  },
+  "ISK": {
+    "drawdown_percent": 12.31,
+    "days_since_ath": 217
+  },
+  "YER": {
+    "drawdown_percent": 10.58,
+    "days_since_ath": 43
+  },
+  "SZL": {
+    "drawdown_percent": 11.67,
+    "days_since_ath": 43
+  },
+  "TRY": {
+    "drawdown_percent": 9.42,
+    "days_since_ath": 15
+  },
+  "SAR": {
+    "drawdown_percent": 10.04,
+    "days_since_ath": 43
+  },
+  "LSL": {
+    "drawdown_percent": 11.67,
+    "days_since_ath": 43
+  },
+  "JPY": {
+    "drawdown_percent": 10.03,
+    "days_since_ath": 15
+  },
+  "LRD": {
+    "drawdown_percent": 10.26,
+    "days_since_ath": 15
+  },
+  "SEK": {
+    "drawdown_percent": 13.83,
+    "days_since_ath": 217
+  },
+  "FJD": {
+    "drawdown_percent": 9.62,
+    "days_since_ath": 15
+  },
+  "KMF": {
+    "drawdown_percent": 11.2,
+    "days_since_ath": 217
+  },
+  "KYD": {
+    "drawdown_percent": 10.04,
+    "days_since_ath": 43
+  },
+  "RSD": {
+    "drawdown_percent": 11.08,
+    "days_since_ath": 217
+  },
+  "UYU": {
+    "drawdown_percent": 11.84,
+    "days_since_ath": 43
+  },
+  "HUF": {
+    "drawdown_percent": 14.48,
+    "days_since_ath": 217
+  },
+  "DZD": {
+    "drawdown_percent": 10.19,
+    "days_since_ath": 15
+  },
+  "BHD": {
+    "drawdown_percent": 10.04,
+    "days_since_ath": 43
+  },
+  "MAD": {
+    "drawdown_percent": 10.4,
+    "days_since_ath": 15
+  },
+  "NPR": {
+    "drawdown_percent": 10.04,
+    "days_since_ath": 15
+  },
+  "DKK": {
+    "drawdown_percent": 11.06,
+    "days_since_ath": 217
+  },
+  "ALL": {
+    "drawdown_percent": 10.71,
+    "days_since_ath": 43
+  },
+  "TTD": {
+    "drawdown_percent": 10.05,
+    "days_since_ath": 43
+  },
+  "MXN": {
+    "drawdown_percent": 10.1,
+    "days_since_ath": 43
+  },
+  "BND": {
+    "drawdown_percent": 10.06,
+    "days_since_ath": 15
+  },
+  "SCR": {
+    "drawdown_percent": 11.28,
+    "days_since_ath": 15
+  },
+  "XPF": {
     "drawdown_percent": 11.02,
     "days_since_ath": 217
   },
+  "KRW": {
+    "drawdown_percent": 10.02,
+    "days_since_ath": 15
+  },
+  "AFN": {
+    "drawdown_percent": 11.08,
+    "days_since_ath": 43
+  },
+  "IRR": {
+    "drawdown_percent": 11.48,
+    "days_since_ath": 15
+  },
+  "OMR": {
+    "drawdown_percent": 10.04,
+    "days_since_ath": 43
+  },
+  "SOS": {
+    "drawdown_percent": 10.09,
+    "days_since_ath": 15
+  },
+  "GBP": {
+    "drawdown_percent": 10.22,
+    "days_since_ath": 15
+  },
+  "CDF": {
+    "drawdown_percent": 10.92,
+    "days_since_ath": 43
+  },
+  "PHP": {
+    "drawdown_percent": 10.27,
+    "days_since_ath": 15
+  },
+  "NGN": {
+    "drawdown_percent": 9.89,
+    "days_since_ath": 12
+  },
+  "NOK": {
+    "drawdown_percent": 11.38,
+    "days_since_ath": 15
+  },
+  "CLP": {
+    "drawdown_percent": 10.96,
+    "days_since_ath": 15
+  },
+  "USD": {
+    "drawdown_percent": 10.04,
+    "days_since_ath": 43
+  },
+  "BSD": {
+    "drawdown_percent": 10.04,
+    "days_since_ath": 43
+  },
+  "VES": {
+    "drawdown_percent": 4.24,
+    "days_since_ath": 3
+  },
+  "XAF": {
+    "drawdown_percent": 11.08,
+    "days_since_ath": 217
+  },
+  "LBP": {
+    "drawdown_percent": 10.04,
+    "days_since_ath": 43
+  },
+  "CUP": {
+    "drawdown_percent": 10.04,
+    "days_since_ath": 43
+  },
+  "DOP": {
+    "drawdown_percent": 8.86,
+    "days_since_ath": 12
+  },
+  "PAB": {
+    "drawdown_percent": 10.04,
+    "days_since_ath": 43
+  },
+  "MUR": {
+    "drawdown_percent": 8.93,
+    "days_since_ath": 15
+  },
+  "HKD": {
+    "drawdown_percent": 10.48,
+    "days_since_ath": 43
+  },
+  "LYD": {
+    "drawdown_percent": 10.06,
+    "days_since_ath": 12
+  },
+  "QAR": {
+    "drawdown_percent": 10.04,
+    "days_since_ath": 43
+  },
+  "VND": {
+    "drawdown_percent": 9.78,
+    "days_since_ath": 15
+  },
+  "DJF": {
+    "drawdown_percent": 10.04,
+    "days_since_ath": 43
+  },
+  "SDG": {
+    "drawdown_percent": 24.9,
+    "days_since_ath": 12
+  },
+  "MWK": {
+    "drawdown_percent": 9.72,
+    "days_since_ath": 15
+  },
+  "TWD": {
+    "drawdown_percent": 8.31,
+    "days_since_ath": 12
+  },
+  "MOP": {
+    "drawdown_percent": 10.48,
+    "days_since_ath": 43
+  },
+  "NZD": {
+    "drawdown_percent": 8.54,
+    "days_since_ath": 15
+  },
+  "NAD": {
+    "drawdown_percent": 11.67,
+    "days_since_ath": 43
+  },
+  "PEN": {
+    "drawdown_percent": 11.22,
+    "days_since_ath": 43
+  },
+  "ETB": {
+    "drawdown_percent": 9.76,
+    "days_since_ath": 12
+  },
+  "BBD": {
+    "drawdown_percent": 10.04,
+    "days_since_ath": 43
+  },
+  "BOB": {
+    "drawdown_percent": 10.41,
+    "days_since_ath": 43
+  },
+  "PKR": {
+    "drawdown_percent": 10.29,
+    "days_since_ath": 43
+  },
+  "KWD": {
+    "drawdown_percent": 10.04,
+    "days_since_ath": 43
+  },
+  "EGP": {
+    "drawdown_percent": 11.83,
+    "days_since_ath": 43
+  },
+  "JMD": {
+    "drawdown_percent": 10.18,
+    "days_since_ath": 43
+  },
+  "XOF": {
+    "drawdown_percent": 11.08,
+    "days_since_ath": 217
+  },
+  "BGN": {
+    "drawdown_percent": 10.83,
+    "days_since_ath": 217
+  },
   "CNY": {
-    "drawdown_percent": 10.58,
+    "drawdown_percent": 10.4,
     "days_since_ath": 15
   },
   "COP": {
-    "drawdown_percent": 11.36,
+    "drawdown_percent": 11.18,
     "days_since_ath": 15
   },
   "IDR": {
-    "drawdown_percent": 10.28,
-    "days_since_ath": 15
-  },
-  "MGA": {
-    "drawdown_percent": 9.67,
-    "days_since_ath": 15
-  },
-  "XCD": {
-    "drawdown_percent": 10.23,
-    "days_since_ath": 43
-  },
-  "MMK": {
-    "drawdown_percent": 34.58,
-    "days_since_ath": 217
-  },
-  "TMT": {
-    "drawdown_percent": 10.22,
-    "days_since_ath": 43
-  },
-  "RWF": {
-    "drawdown_percent": 10.24,
-    "days_since_ath": 12
-  },
-  "GYD": {
-    "drawdown_percent": 10.23,
-    "days_since_ath": 43
-  },
-  "BWP": {
-    "drawdown_percent": 11.34,
-    "days_since_ath": 26
-  },
-  "BDT": {
     "drawdown_percent": 10.1,
     "days_since_ath": 15
   },
+  "MGA": {
+    "drawdown_percent": 9.48,
+    "days_since_ath": 15
+  },
+  "XCD": {
+    "drawdown_percent": 10.04,
+    "days_since_ath": 43
+  },
+  "MMK": {
+    "drawdown_percent": 34.44,
+    "days_since_ath": 217
+  },
+  "TMT": {
+    "drawdown_percent": 10.03,
+    "days_since_ath": 43
+  },
+  "RWF": {
+    "drawdown_percent": 10.05,
+    "days_since_ath": 12
+  },
+  "GYD": {
+    "drawdown_percent": 10.04,
+    "days_since_ath": 43
+  },
+  "BWP": {
+    "drawdown_percent": 11.16,
+    "days_since_ath": 26
+  },
+  "BDT": {
+    "drawdown_percent": 9.91,
+    "days_since_ath": 15
+  },
   "TZS": {
-    "drawdown_percent": 14.47,
+    "drawdown_percent": 14.29,
     "days_since_ath": 43
   },
   "ZAR": {
-    "drawdown_percent": 11.86,
+    "drawdown_percent": 11.68,
     "days_since_ath": 43
   },
   "MKD": {
-    "drawdown_percent": 10.25,
+    "drawdown_percent": 10.06,
     "days_since_ath": 217
   },
   "AUD": {
-    "drawdown_percent": 9.75,
+    "drawdown_percent": 9.56,
     "days_since_ath": 15
   },
   "RON": {
-    "drawdown_percent": 10.88,
+    "drawdown_percent": 10.69,
     "days_since_ath": 15
   },
   "PLN": {
-    "drawdown_percent": 11.32,
+    "drawdown_percent": 11.13,
     "days_since_ath": 217
   },
   "BZD": {
-    "drawdown_percent": 10.23,
+    "drawdown_percent": 10.04,
     "days_since_ath": 43
   },
   "MVR": {
-    "drawdown_percent": 10.2,
+    "drawdown_percent": 10.01,
     "days_since_ath": 43
   },
   "UGX": {
-    "drawdown_percent": 11.4,
+    "drawdown_percent": 11.22,
     "days_since_ath": 43
   },
   "IQD": {
-    "drawdown_percent": 10.28,
+    "drawdown_percent": 10.1,
     "days_since_ath": 15
   },
   "UZS": {
-    "drawdown_percent": 12.74,
+    "drawdown_percent": 12.56,
     "days_since_ath": 43
   },
   "BMD": {
-    "drawdown_percent": 10.23,
+    "drawdown_percent": 10.04,
     "days_since_ath": 43
   },
   "ANG": {
-    "drawdown_percent": 10.23,
+    "drawdown_percent": 10.04,
     "days_since_ath": 43
   },
   "UAH": {
-    "drawdown_percent": 11.07,
+    "drawdown_percent": 10.88,
     "days_since_ath": 43
   },
   "ZMW": {
-    "drawdown_percent": 15.97,
+    "drawdown_percent": 15.79,
     "days_since_ath": 217
   },
   "INR": {
-    "drawdown_percent": 10.23,
+    "drawdown_percent": 10.04,
     "days_since_ath": 15
   },
   "SGD": {
-    "drawdown_percent": 10.25,
+    "drawdown_percent": 10.06,
     "days_since_ath": 15
   },
   "CHF": {
-    "drawdown_percent": 11.57,
+    "drawdown_percent": 11.38,
     "days_since_ath": 217
   },
   "MRU": {
-    "drawdown_percent": 10.05,
+    "drawdown_percent": 9.86,
     "days_since_ath": 15
   },
   "MZN": {
-    "drawdown_percent": 10.34,
+    "drawdown_percent": 10.15,
     "days_since_ath": 15
   },
   "GTQ": {
-    "drawdown_percent": 10.44,
+    "drawdown_percent": 10.25,
     "days_since_ath": 43
   },
   "GHS": {
-    "drawdown_percent": 22.79,
+    "drawdown_percent": 22.63,
     "days_since_ath": 217
   },
   "MDL": {
-    "drawdown_percent": 11.36,
+    "drawdown_percent": 11.17,
     "days_since_ath": 15
   }
 }
